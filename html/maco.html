@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Calculador de Masa Corporal</title>
+</head>
+<body>
+    <h1>Calcular tu Masa Corporal</h1>
+    <h2>Ingresa tu nombre</h2>
+
+    <input class="inputs" type="text" placeholder="Nombre" id='nombre'>
+
+    <div class="historial" id="historial2"></div>
+
+    <h3>Ingresa tu sexo</h3>
+    <select disabled id="sexo" name="sexo">
+        <option value="selec">Seleccionar</option>
+        <option value="femenino">Femenino</option>
+        <option value="masculino">Masculino</option>
+        <option value="noBinario">No Binario</option>
+    </select>
+    <h4>Ingresa tu altura</h4>
+    <input class="inputs" type="number" placeholder="Altura" id='altura'>
+    <h5>Ingresa tu peso</h5>
+    <input class="inputs" type="number" placeholder="Peso" id="peso">
+    <h6>Calcula tu masa corporal</h6>
+    <button class="" id="boton">Calcular</button>
+    <br>
+    <br>
+    <input class="inputs" type="number" placeholder="Resultado" readonly id="resultado">
+
+
+</body>
+    <script src="../js/proyecto.js"></script>
+</html>
